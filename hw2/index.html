@@ -19,8 +19,11 @@
         if (accessAllowed) {
            alert("Вы настоящий криптобоярин") 
         }
-        
-        // alert("Если бы вы положили их в стейкинг, у вас было бы ${number + 0.5}");
+        let m = parseInt(prompt("Введите число месяцев(начисления каждый месяц)"))
+        function staking(a,m) {
+            return a += a*(1+0.15**m)
+        }
+        alert(staking(number,m));
     </script>
    <h1 class="text">Допустим, что это статья на Web 3.0 тематику.</h1> 
    <h2 class="text">Топ 3 некастодиальных криптовалютных кошелька по мнению редакции CRYPTORUSICH.</h2>
