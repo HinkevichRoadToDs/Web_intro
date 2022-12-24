@@ -1,0 +1,31 @@
+{
+    "users_data":[
+        {
+        "name": "Иван",
+        "surname": "Иванов",
+        "patronymic": "Иванович",
+        "age": 30,
+        "birthplace": "Москва",
+        "phone": "+79267664848"
+        },
+        {
+        "name": "Евгений",
+        "surname": "Иванов",
+        "patronymic": "Иванович",
+        "age": 30,
+        "birthplace": "Минск",
+        "phone": "+79267664848"
+        }
+      ],
+      "premium_users_data":[
+        {
+        "name": "Иван",
+        "surname": "Иванов",
+        "patronymic": "Иванович",
+        "age": 30,
+        "birthplace": "Москва",
+        "phone": "+79267664848",
+        "credits":780
+        } 
+        ]
+  }
